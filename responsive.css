@@ -36,4 +36,19 @@
     .container.grid.wide{
         margin-top: 80px;
     }
+
+    .mobile-search-box{
+        display: flex;
+    }
+
+    .header__search, .header__search-icon{
+        display: none;
+    }
+    .primary-menu{
+        display: none;
+    }
+    
+    .mobile-menu{
+        display: flex;
+    }
 }
