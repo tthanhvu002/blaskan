@@ -1,0 +1,39 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+    .table tr{
+        gap: 11px;
+    }
+}
+@media (max-width:1023px) {
+    .item__img,.item.h-390 .item__img{
+        margin: 40px auto;
+        width: 350px;
+        height: 250px;
+    }
+    .tags{
+        margin-bottom: 20px;
+    }
+
+    .container{
+        
+        padding: 0 15px;
+    }
+
+    footer .col:last-child{
+        margin-top: 20px;
+    }
+    footer .categories{
+        margin-top: 20px;
+    }
+    footer .recent-post{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 739px) {
+    .table tr{
+        gap: 10px;
+    }
+    
+    .container.grid.wide{
+        margin-top: 80px;
+    }
+}
